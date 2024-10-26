@@ -1,0 +1,97 @@
+.success_container {
+	width: 90%;
+	height: auto;
+	margin: 100px 0px;
+	padding: 32px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--background-2);
+	border-radius: var(--border-radius);
+	box-shadow: 0px 4px 12px 0px #0000001A;
+}
+
+.success_container span {
+	width: 100%;
+	height: 40px;
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	color: var(--blue-1);
+	text-align: left;
+	font-family: Poppins;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: -0.63px;
+	margin-top: 10px;
+	background-color: var(--blue-2);
+	border-radius: var(--border-radius);
+	border: 2px solid var(--blue-1);
+}
+
+.success_container h1 {
+	color: var(--gray-2);
+	text-align: center;
+	font-family: Poppins;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: -0.63px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+.copy_container {
+	width: 100%;
+	height: 40px;
+	background: var(--background-3);
+	border: 1px solid #E0E0E0;
+	box-sizing: border-box;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 2px;
+	margin-top: 20px;
+}
+
+.copy_container input {
+	width: 100%;
+	height: 100%;
+	padding: 0px 5px;
+	font-size: 0.70rem;
+	font-family: Poppins;
+	color: var(--gray-2);
+	align-self: center;
+	white-space: nowrap;
+	overflow: hidden;
+	margin-right: 2px;
+	margin-left: 2px;
+	outline: none;
+	border: none;
+	background-color: var(--background-3);
+}
+
+.copy_container button {
+	background: var(--blue-1);
+	font-family: Poppins;
+	border-radius: 8px;
+	color: var(--background-2);
+	border: none;
+	font-size: 0.75rem;
+	padding: 5px;
+	cursor: pointer;
+	width: 100px;
+	height: 100%;
+	margin-left: 2px;
+}
+
+@media (min-width: 600px) {
+	.success_container {
+		width: 400px;
+	}
+}
